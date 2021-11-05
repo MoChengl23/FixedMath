@@ -1,0 +1,14 @@
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.exe
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.deps.json
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.runtimeconfig.json
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.runtimeconfig.dev.json
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.dll
+D:\1\Determinstic Math\bin\Debug\netcoreapp3.1\Determinstic Math.pdb
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.csproj.AssemblyReference.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.AssemblyInfoInputs.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.AssemblyInfo.cs
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.csproj.CoreCompileInputs.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.dll
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.pdb
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.genruntimeconfig.cache
