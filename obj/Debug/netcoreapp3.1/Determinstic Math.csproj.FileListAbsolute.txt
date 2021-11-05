@@ -12,3 +12,17 @@ D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.csproj.CoreComp
 D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.dll
 D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.pdb
 D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\Determinstic Math.genruntimeconfig.cache
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.exe
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.deps.json
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.runtimeconfig.json
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.runtimeconfig.dev.json
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.dll
+D:\PETuts\PEMath\_4Demo\PEMath\UnityPEMath\Assets\netcoreapp3.1\Determinstic Math.pdb
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.exe
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.deps.json
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.runtimeconfig.json
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.runtimeconfig.dev.json
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.dll
+D:\1\Determinstic Math\netcoreapp3.1\Determinstic Math.pdb
+D:\1\Determinstic Math\netcoreapp3.1\Unity.Mathematics.dll
+D:\1\Determinstic Math\netcoreapp3.1\UnityEngine.CoreModule.dll

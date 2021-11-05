@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Determinstic_Math</RootNamespace>
+  </PropertyGroup>
+
+
+
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>./</OutputPath>
+    <DefineConstants>TRACE;UNITY_ENV</DefineConstants>
+  </PropertyGroup>
+
+
+
+<ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>./lib/UnityEngine.CoreModule.dll</HintPath>
+         <!-- <Private>false</Private> -->
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>./lib/Unity.Mathematics.dll</HintPath>
+         <!-- <Private>false</Private> -->
+    </Reference>
+    </ItemGroup>
+
+</Project>

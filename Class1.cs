@@ -1,12 +1,18 @@
 ﻿using System;
-
+using UnityEngine;
+#if UNITY_ENV
+    using UnityEngine;
+#endif
 namespace FixedMath
 {
 
 
-
+#if UNITY_ENV
+    // public Vector3 = 
+#endif
 
     public struct FixedInt {
+        // UnityEngine.Vector3 aa = new UnityEngine.Vector3(1,1,1);
         private long scaledValue;
         public long ScaledValue{
             get => scaledValue;
