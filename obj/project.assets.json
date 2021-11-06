@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1\\Determinstic Math\\Determinstic Math.csproj",
-      "projectName": "Determinstic Math",
-      "projectPath": "D:\\1\\Determinstic Math\\Determinstic Math.csproj",
+      "projectUniqueName": "D:\\1\\Determinstic Math\\FixedMath.csproj",
+      "projectName": "FixedMath",
+      "projectPath": "D:\\1\\Determinstic Math\\FixedMath.csproj",
       "packagesPath": "C:\\Users\\92072\\.nuget\\packages\\",
       "outputPath": "D:\\1\\Determinstic Math\\obj\\",
       "projectStyle": "PackageReference",

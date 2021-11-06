@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ir/imewIWMLrkL4GDvGeAOYmkOWiTrlD2CNXbHxBYFtkGno1F4KC950zI5Bbk9Na4ZIVVAFMSE1FivvlXjDcHw==",
+  "dgSpecHash": "TUJXE6kkJwCp1UuF8/YqkciZdCknuZJ0gzJ8bmjxLU77F8XZuKUQQGGo8o8dQa/UsM2zEVye2Zrip22eGctQqQ==",
   "success": true,
-  "projectFilePath": "D:\\1\\Determinstic Math\\Determinstic Math.csproj",
+  "projectFilePath": "D:\\1\\Determinstic Math\\FixedMath.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92072\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
   ],

@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine;
-#if UNITY_ENV
-    using UnityEngine;
-#endif
+
 namespace FixedMath
 {
 
@@ -18,6 +16,7 @@ namespace FixedMath
             get => scaledValue;
             set => scaledValue = value;
         }
+        
         const int BIT_MOVE_COUNT = 10;
         const long MUTIPLIER_FACTOR = 1<< BIT_MOVE_COUNT;
         //内部使用，已经放大后的数
@@ -67,7 +66,10 @@ namespace FixedMath
             return new FixedInt(value.scaledValue << moveCount);
         }
         public static FixedInt operator >>(FixedInt value, int moveCount){
-            return new FixedInt(value.scaledValue >> moveCount);
+            if(value.scaledValue >= 0)
+                return new FixedInt(value.scaledValue >> moveCount);
+            else
+                return new FixedInt(-(-value.scaledValue >> moveCount));
         }
         public static FixedInt operator +(FixedInt a, FixedInt b){
             return new FixedInt(a.scaledValue + b.scaledValue);
@@ -76,13 +78,18 @@ namespace FixedMath
             return new FixedInt(a.scaledValue - b.scaledValue);
         }
         public static FixedInt operator *(FixedInt a, FixedInt b){
-            return new FixedInt((long)(a.scaledValue * b.scaledValue)>> BIT_MOVE_COUNT);
+            long result = a.scaledValue * b.scaledValue;
+            if(result >=0)
+                result >>= BIT_MOVE_COUNT;
+            else 
+                result = -(-result >> BIT_MOVE_COUNT);
+            return new FixedInt(result);
         }
         public static FixedInt operator /(FixedInt a, FixedInt b){
             if (b.scaledValue == 0) throw new Exception();
             return new FixedInt((long)(a.scaledValue / b.scaledValue)<< BIT_MOVE_COUNT);
         }
-
+        
 
 
 
@@ -95,7 +102,13 @@ namespace FixedMath
             get => scaledValue *1.0f/MUTIPLIER_FACTOR;
         }
         public int RawInt{
-            get => (int)(scaledValue >> BIT_MOVE_COUNT);
+            get {
+                if(scaledValue >= 0)
+                    return    (int)(scaledValue >> BIT_MOVE_COUNT);
+                else
+                //将负数转化为正数，使正负数舍入时， 值一样
+                    return -(int)(-scaledValue >> BIT_MOVE_COUNT);
+            } 
         }
 
         public override bool Equals(object obj){

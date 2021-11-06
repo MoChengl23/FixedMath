@@ -1,0 +1,22 @@
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.exe
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.deps.json
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.runtimeconfig.json
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.runtimeconfig.dev.json
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.dll
+D:\1\Determinstic Math\netcoreapp3.1\FixedMath.pdb
+D:\1\Determinstic Math\netcoreapp3.1\Unity.Mathematics.dll
+D:\1\Determinstic Math\netcoreapp3.1\UnityEngine.CoreModule.dll
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.csproj.AssemblyReference.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.AssemblyInfoInputs.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.AssemblyInfo.cs
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.csproj.CoreCompileInputs.cache
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.dll
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.pdb
+D:\1\Determinstic Math\obj\Debug\netcoreapp3.1\FixedMath.genruntimeconfig.cache
+D:\xunlei\MathTest\Assets\FixedMath.exe
+D:\xunlei\MathTest\Assets\FixedMath.deps.json
+D:\xunlei\MathTest\Assets\FixedMath.runtimeconfig.json
+D:\xunlei\MathTest\Assets\FixedMath.runtimeconfig.dev.json
+D:\xunlei\MathTest\Assets\FixedMath.dll
+D:\xunlei\MathTest\Assets\FixedMath.pdb

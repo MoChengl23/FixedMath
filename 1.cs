@@ -9,17 +9,21 @@ namespace FixedMath
     {
         static void Main(string[] args)
         {
-            float3 f  = new float3(1,1,1);
-            float3 g = new float3(2.4f,2.6f,1.4f);
-            var aa = f+g;
-            Console.WriteLine(math.distance(g,f));
-            Console.WriteLine(math.dot(f,g));
+            // float3 f  = new float3(1,1,1);
+            // float3 g = new float3(2.4f,2.6f,1.4f);
+            // var aa = f+g;
+            // Console.WriteLine(math.distance(g,f));
+            // Console.WriteLine(math.dot(f,g));
 
 
-            FixedInt a = 2;
-            FixedInt b = (FixedInt)0.5f;
-            FixedInt c = a/b;
-            Console.WriteLine(c.ToString());
+            FixedInt a = 0;
+            FixedInt q = FixedCalculate.Sqrt(a);
+            Console.WriteLine(q);
+            FixedInt b = (FixedInt)0.3f;
+            
+            FixedInt c = (FixedInt)(-0.3f);
+            // FixedInt c = a/b;
+            Console.WriteLine((a*b).RawInt.ToString()+" "+(a*c).RawInt.ToString());
 
         Console.ReadKey();
 
