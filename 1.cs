@@ -14,16 +14,22 @@ namespace FixedMath
             // var aa = f+g;
             // Console.WriteLine(math.distance(g,f));
             // Console.WriteLine(math.dot(f,g));
-
-
+            FixedVector3 ang1 = new FixedVector3(1,0,0);
+            FixedVector3 ang2 = new FixedVector3(1,(FixedInt)1.732f,0);
+            Console.WriteLine(FixedVector3.Angle(ang1,ang2).ConvertToViewAngle());
+            Console.WriteLine(FixedVector3.Angle(ang1,ang2).ConvertToFloat());
+            Console.WriteLine(FixedVector3.Angle(ang1,ang2));
+            FixedInt s = 12;
+            Console.WriteLine(FixedCalculate.Sqrt(3));
+           
             FixedInt a = 0;
             FixedInt q = FixedCalculate.Sqrt(a);
-            Console.WriteLine(q);
+            // Console.WriteLine(q);
             FixedInt b = (FixedInt)0.3f;
             
             FixedInt c = (FixedInt)(-0.3f);
             // FixedInt c = a/b;
-            Console.WriteLine((a*b).RawInt.ToString()+" "+(a*c).RawInt.ToString());
+            // Console.WriteLine((a*b).RawInt.ToString()+" "+(a*c).RawInt.ToString());
 
         Console.ReadKey();
 

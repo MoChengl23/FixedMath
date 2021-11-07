@@ -87,7 +87,7 @@ namespace FixedMath
         }
         public static FixedInt operator /(FixedInt a, FixedInt b){
             if (b.scaledValue == 0) throw new Exception();
-            return new FixedInt((long)(a.scaledValue / b.scaledValue)<< BIT_MOVE_COUNT);
+            return new FixedInt((a.scaledValue <<BIT_MOVE_COUNT) / b.scaledValue);
         }
         
 

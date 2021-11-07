@@ -1,7 +1,7 @@
 #if UNITY_ENV
     using UnityEngine;
 #endif
-
+using System;
 
 namespace FixedMath
 {
@@ -135,12 +135,14 @@ namespace FixedMath
             return new FixedVector3(a.y *b.z - a.z*b.y,a.z*b.x-a.x*b.z, a.x*b.y - a.y*b.x);
         }
 
-        public static FixedInt Angle(FixedVector3 from, FixedVector3 to){
+        public static FixedArgs Angle(FixedVector3 from, FixedVector3 to){
             FixedInt dot = Dot(from,to);
             FixedInt mod = from.magnitude * to.magnitude;
-            if(mod == (FixedInt)0) return 0;
-
-            return 0;
+            if(mod == (FixedInt)0) return new FixedArgs(0,10000);
+            
+            FixedInt value = dot  / mod;
+           
+            return FixedCalculate.Acos(value);
         }
 
 
